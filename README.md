@@ -9,7 +9,6 @@
   - [Features](#features)
   - [What's Next](#whats-next)
   - [Installation](#installation)
-  - [Citations](#citations)
 
 ## Description
 WordsHelper is an application based on swiftUI that allows users to create 
@@ -70,5 +69,5 @@ Any suggestions and contributions are welcome! You can
 2. Give suggestion
 3. Contribute code
 
-## Citations
+
 [1]: https://dictionary.cambridge.org/dictionary/english/code
