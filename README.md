@@ -9,6 +9,7 @@
   - [Features](#features)
   - [What's Next](#whats-next)
   - [Installation](#installation)
+  - [Contribution](#contribution)
 
 ## Description
 WordsHelper is an application based on swiftUI that allows users to create 
