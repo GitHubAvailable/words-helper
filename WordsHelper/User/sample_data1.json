@@ -1,0 +1,41 @@
+{
+    "language": "en",
+    "words": [
+        {
+            "key": "lorem",
+            "notes": "ipsum dolor",
+            "detail": "Lorem ipsum sit amet, consectetur elit",
+            "pronounce": "[Lorem]",
+            "proficiency": 4
+        },
+        {
+            "key": "ipsum",
+            "notes": "Lorem",
+            "detail": "Dolor sit amet, consectetur adipiscing elit",
+            "pronounce": "[ˌlɔː.ɹəm]",
+            "proficiency": 5
+        },
+        {
+            "key": "amet",
+            "notes": "consectetur",
+            "detail": "Consectetur adipiscing elit",
+            "pronounce": "[amet]",
+            "proficiency": 3
+        },
+        {
+            "key": "elit",
+            "notes": "dolor sit",
+            "detail": "Lorem ipsum dolor",
+            "pronounce": "[ɪˈliːt]",
+            "proficiency": 3
+        },
+        {
+            "key": "adipisc",
+            "notes": "dolor sit amet",
+            "detail": "Ipsum sit amet",
+            "pronounce": "[adipisc]",
+            "proficiency": 2
+        }
+    ]
+}
+

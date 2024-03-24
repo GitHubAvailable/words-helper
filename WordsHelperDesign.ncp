@@ -1,0 +1,380 @@
+<Project>
+  <Name>WordsHelper</Name>
+  <ProjectItem type="NClass.DiagramEditor.ClassDiagram.Diagram" assembly="NClass.DiagramEditor, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <Name>WordsHelper</Name>
+    <Language>Java</Language>
+    <Entities>
+      <Entity type="Interface">
+        <GeneratorParameters />
+        <Name>FileDocument</Name>
+        <Access>Public</Access>
+        <Location left="1027" top="504" />
+        <Size width="291" height="162" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">static final T readConfiguration</Member>
+        <Member type="Field">static final UTType[] readableContentTypes</Member>
+        <Member type="Field">static final T writeConfiguration</Member>
+        <Member type="Field">static final UTType[] writableContentTypes</Member>
+        <Member type="Method">void fileWrapper(WriteConfiguration configuration)</Member>
+      </Entity>
+      <Entity type="Enum">
+        <GeneratorParameters />
+        <Name>Language</Name>
+        <Access>Public</Access>
+        <Location left="1120" top="1129" />
+        <Size width="162" height="95" />
+        <Collapsed>False</Collapsed>
+        <Value>zh</Value>
+        <Value>en</Value>
+      </Entity>
+      <Entity type="Class" nhmTableName="words_list" idGenerator="">
+        <GeneratorParameters />
+        <Name>WordsList</Name>
+        <Access>Public</Access>
+        <Location left="1000" top="724" />
+        <Size width="291" height="349" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">private String name</Member>
+        <Member type="Field">private int length</Member>
+        <Member type="Field">private String path</Member>
+        <Member type="Field">private Language language</Member>
+        <Member type="Field">private UTType[] readableContentTypes</Member>
+        <Member type="Field">private T readConfiguration</Member>
+        <Member type="Field">private NSMutableOrderedSet&lt;Word&gt; words</Member>
+        <Member type="Constructor">public WordsList(String path)</Member>
+        <Member type="Method">public Word[] load()</Member>
+        <Member type="Method">public void fileWrapper(WriteConfiguration configuration)</Member>
+        <Member type="Method">public void save()</Member>
+        <Member type="Method">public void addItem()</Member>
+        <Member type="Method">public void addItems(int length)</Member>
+        <Member type="Method">public void removeItem(int index)</Member>
+        <Member type="Method">public void removeItems(int[] indexes)</Member>
+        <Member type="Method">public void toggleItem(int from, int to)</Member>
+        <Modifier>None</Modifier>
+        <Stereotype>
+        </Stereotype>
+      </Entity>
+      <Entity type="Class" nhmTableName="word" idGenerator="">
+        <GeneratorParameters />
+        <Name>Word</Name>
+        <Access>Public</Access>
+        <Location left="1377" top="902" />
+        <Size width="162" height="162" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">private String key</Member>
+        <Member type="Field">private String notes</Member>
+        <Member type="Field">private String description</Member>
+        <Member type="Field">private String pronounce</Member>
+        <Member type="Field">private Proficiency proficiency</Member>
+        <Modifier>None</Modifier>
+        <Stereotype>
+        </Stereotype>
+      </Entity>
+      <Entity type="Enum">
+        <GeneratorParameters />
+        <Name>Proficiency</Name>
+        <Access>Public</Access>
+        <Location left="1377" top="1140" />
+        <Size width="162" height="146" />
+        <Collapsed>False</Collapsed>
+        <Value>level1</Value>
+        <Value>level2</Value>
+        <Value>level3</Value>
+        <Value>level4</Value>
+        <Value>level5</Value>
+      </Entity>
+      <Entity type="Comment">
+        <Text>add key dict to enable search words</Text>
+        <Location left="947" top="1140" />
+        <Size width="160" height="50" />
+      </Entity>
+      <Entity type="Comment">
+        <Text>Should be struct in Swift</Text>
+        <Location left="1610" top="999" />
+        <Size width="160" height="75" />
+      </Entity>
+      <Entity type="Class" nhmTableName="words_list_view" idGenerator="">
+        <GeneratorParameters />
+        <Name>WordsListView</Name>
+        <Access>Public</Access>
+        <Location left="725" top="579" />
+        <Size width="205" height="230" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">private WordList wordsList</Member>
+        <Member type="Field">private UndoManager undoManager</Member>
+        <Member type="Field">private Set&lt;UUID&gt; selection</Member>
+        <Member type="Field">View body</Member>
+        <Member type="Method">public void addItem()</Member>
+        <Member type="Method">public void addItems(int length)</Member>
+        <Member type="Method">public void removeItem(int index)</Member>
+        <Member type="Method">public void removeItems(int[] indexes)</Member>
+        <Member type="Method">public void toggleItem(int from, int to)</Member>
+        <Modifier>None</Modifier>
+        <Stereotype>
+        </Stereotype>
+      </Entity>
+      <Entity type="Interface">
+        <GeneratorParameters />
+        <Name>Identifiable</Name>
+        <Access>Public</Access>
+        <Location left="1424" top="671" />
+        <Size width="162" height="77" />
+        <Collapsed>False</Collapsed>
+      </Entity>
+      <Entity type="Comment">
+        <Text>A static enum inside Word</Text>
+        <Location left="1610" top="1159" />
+        <Size width="160" height="75" />
+      </Entity>
+      <Entity type="Interface">
+        <GeneratorParameters />
+        <Name>Codable</Name>
+        <Access>Public</Access>
+        <Location left="1330" top="773" />
+        <Size width="162" height="77" />
+        <Collapsed>False</Collapsed>
+      </Entity>
+      <Entity type="Enum">
+        <GeneratorParameters />
+        <Name>LearningStage</Name>
+        <Access>Public</Access>
+        <Location left="476" top="1286" />
+        <Size width="162" height="163" />
+        <Collapsed>False</Collapsed>
+        <Value>stage1</Value>
+        <Value>stage2</Value>
+        <Value>stage3</Value>
+        <Value>stage4</Value>
+        <Value>stage5</Value>
+        <Value>stage6</Value>
+      </Entity>
+      <Entity type="Class" nhmTableName="learning_view" idGenerator="">
+        <GeneratorParameters />
+        <Name>LearningView</Name>
+        <Access>Public</Access>
+        <Location left="725" top="902" />
+        <Size width="205" height="128" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">private Word[] wordsList</Member>
+        <Member type="Field">View body</Member>
+        <Member type="Field">StageView stageView</Member>
+        <Modifier>None</Modifier>
+        <Stereotype>
+        </Stereotype>
+      </Entity>
+      <Entity type="Class" nhmTableName="new_class" idGenerator="">
+        <GeneratorParameters />
+        <Name>StageView</Name>
+        <Access>Public</Access>
+        <Location left="476" top="866" />
+        <Size width="175" height="230" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">protected Word[] wordList</Member>
+        <Member type="Field">protected WordsListIterator iterator</Member>
+        <Member type="Field">protected int stage</Member>
+        <Member type="Field">View body</Member>
+        <Member type="Constructor">protected StageView(Word[] wordsList)</Member>
+        <Member type="Method">public void prev()</Member>
+        <Member type="Method">public void next()</Member>
+        <Member type="Method">public void prevStage()</Member>
+        <Member type="Method">public final void nextStage()</Member>
+        <Modifier>Abstract</Modifier>
+        <Stereotype>
+        </Stereotype>
+      </Entity>
+      <Entity type="Class" nhmTableName="new_class" idGenerator="">
+        <GeneratorParameters />
+        <Name>DetailView</Name>
+        <Access>Public</Access>
+        <Location left="95" top="773" />
+        <Size width="319" height="111" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">private View descriptionField</Member>
+        <Member type="Constructor">public DetailView(Word[] wordsList, boolean includeDescription)</Member>
+        <Modifier>None</Modifier>
+        <Stereotype>
+        </Stereotype>
+      </Entity>
+      <Entity type="Class" nhmTableName="quiz_view" idGenerator="">
+        <GeneratorParameters />
+        <Name>QuizView</Name>
+        <Access>Public</Access>
+        <Location left="222" top="930" />
+        <Size width="162" height="94" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">private String[] options</Member>
+        <Modifier>None</Modifier>
+        <Stereotype>
+        </Stereotype>
+      </Entity>
+      <Entity type="Class" nhmTableName="new_class" idGenerator="">
+        <GeneratorParameters />
+        <Name>ListView</Name>
+        <Access>Public</Access>
+        <Location left="222" top="1069" />
+        <Size width="162" height="111" />
+        <Collapsed>False</Collapsed>
+        <Member type="Method">public void prev()</Member>
+        <Member type="Method">public void next()</Member>
+        <Modifier>None</Modifier>
+        <Stereotype>
+        </Stereotype>
+      </Entity>
+      <Entity type="Class" nhmTableName="stage_view_factory" idGenerator="">
+        <GeneratorParameters />
+        <Name>StageViewFactory</Name>
+        <Access>Public</Access>
+        <Location left="419" top="1140" />
+        <Size width="290" height="94" />
+        <Collapsed>False</Collapsed>
+        <Member type="Method">public static StageView CreateStageView(LearningStage stage)</Member>
+        <Modifier>None</Modifier>
+        <Stereotype>
+        </Stereotype>
+      </Entity>
+      <Entity type="Class" nhmTableName="new_class" idGenerator="">
+        <GeneratorParameters />
+        <Name>WordsListIterator</Name>
+        <Access>Public</Access>
+        <Location left="761" top="1069" />
+        <Size width="162" height="179" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">private Word[] wordList</Member>
+        <Member type="Field">private int index</Member>
+        <Member type="Method">public boolean hasPrev()</Member>
+        <Member type="Method">public Word getPrev()</Member>
+        <Member type="Method">public boolean hasNext()</Member>
+        <Member type="Method">public void getNext()</Member>
+        <Modifier>None</Modifier>
+        <Stereotype>
+        </Stereotype>
+      </Entity>
+    </Entities>
+    <Relationships>
+      <Relationship type="Association" first="2" second="3">
+        <StartOrientation>Horizontal</StartOrientation>
+        <EndOrientation>Horizontal</EndOrientation>
+        <BendPoint relativeToStartShape="True">
+          <X>1316</X>
+          <Y>948</Y>
+        </BendPoint>
+        <Direction>Unidirectional</Direction>
+        <AssociationType>Aggregation</AssociationType>
+      </Relationship>
+      <Relationship type="Dependency" first="2" second="1">
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+      </Relationship>
+      <Relationship type="Dependency" first="3" second="4">
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+      </Relationship>
+      <Relationship type="Realization" first="2" second="0">
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+      </Relationship>
+      <Relationship type="Comment" first="6" second="3">
+        <StartOrientation>Horizontal</StartOrientation>
+        <EndOrientation>Horizontal</EndOrientation>
+      </Relationship>
+      <Relationship type="Comment" first="9" second="4">
+        <StartOrientation>Horizontal</StartOrientation>
+        <EndOrientation>Horizontal</EndOrientation>
+      </Relationship>
+      <Relationship type="Realization" first="3" second="8">
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+        <BendPoint relativeToStartShape="True">
+          <X>1519</X>
+          <Y>877</Y>
+        </BendPoint>
+      </Relationship>
+      <Relationship type="Realization" first="3" second="10">
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+      </Relationship>
+      <Relationship type="Comment" first="5" second="2">
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+        <BendPoint relativeToStartShape="True">
+          <X>1028</X>
+          <Y>1114</Y>
+        </BendPoint>
+      </Relationship>
+      <Relationship type="Dependency" first="7" second="2">
+        <StartOrientation>Horizontal</StartOrientation>
+        <EndOrientation>Horizontal</EndOrientation>
+        <BendPoint relativeToStartShape="True">
+          <X>955</X>
+          <Y>758</Y>
+        </BendPoint>
+      </Relationship>
+      <Relationship type="Association" first="12" second="13">
+        <Label>
+        </Label>
+        <StartOrientation>Horizontal</StartOrientation>
+        <EndOrientation>Horizontal</EndOrientation>
+        <Direction>Unidirectional</Direction>
+        <AssociationType>Composition</AssociationType>
+      </Relationship>
+      <Relationship type="Dependency" first="12" second="2">
+        <Label>
+        </Label>
+        <StartOrientation>Horizontal</StartOrientation>
+        <EndOrientation>Horizontal</EndOrientation>
+      </Relationship>
+      <Relationship type="Dependency" first="17" second="11">
+        <Label>
+        </Label>
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+      </Relationship>
+      <Relationship type="Generalization" first="14" second="13">
+        <StartOrientation>Horizontal</StartOrientation>
+        <EndOrientation>Horizontal</EndOrientation>
+        <BendPoint relativeToStartShape="True">
+          <X>439</X>
+          <Y>875</Y>
+        </BendPoint>
+      </Relationship>
+      <Relationship type="Generalization" first="15" second="13">
+        <StartOrientation>Horizontal</StartOrientation>
+        <EndOrientation>Horizontal</EndOrientation>
+      </Relationship>
+      <Relationship type="Generalization" first="16" second="13">
+        <StartOrientation>Horizontal</StartOrientation>
+        <EndOrientation>Horizontal</EndOrientation>
+        <BendPoint relativeToStartShape="False">
+          <X>448</X>
+          <Y>1083</Y>
+        </BendPoint>
+      </Relationship>
+      <Relationship type="Dependency" first="17" second="13">
+        <Label>
+        </Label>
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+        <BendPoint relativeToStartShape="False">
+          <X>558</X>
+          <Y>1121</Y>
+        </BendPoint>
+      </Relationship>
+      <Relationship type="Dependency" first="12" second="17">
+        <Label>
+        </Label>
+        <StartOrientation>Horizontal</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+        <BendPoint relativeToStartShape="True">
+          <X>683</X>
+          <Y>999</Y>
+        </BendPoint>
+      </Relationship>
+      <Relationship type="Dependency" first="17" second="18">
+        <Label>
+        </Label>
+        <StartOrientation>Horizontal</StartOrientation>
+        <EndOrientation>Horizontal</EndOrientation>
+      </Relationship>
+    </Relationships>
+  </ProjectItem>
+</Project>

@@ -10,8 +10,11 @@ import SwiftUI
 @main
 struct WordsHelperApp: App {
     var body: some Scene {
-        WindowGroup {
+        DocumentGroup(newDocument: { WordsList() }) { file in
             ContentView()
+                .environmentObject(file.document)
+                // .tint(.green)
+                // .preferredColorScheme(.dark)
         }
     }
 }
