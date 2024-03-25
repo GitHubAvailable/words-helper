@@ -40,8 +40,17 @@ The learning system is divided to 6 stages:
 5. Review all words in as list.
 6. Multiple-Choice about unfamiliar words.
 
-The following table shows the infomation of a word displayed in 
+The following table shows the information of a word displayed in 
 each stage
+
+|   | Key | Notes | Pronounciation | Proficiency | Description |
+|:-:|:---:|:-----:|:--------------:|:-----------:|:-----------:|
+| 1 |  ✓  |   ✓   |        ✓       |      ✓      |             |
+| 2 |  ✓  |   ✓   |        ✓       |      ✓      |             |
+| 3 |  ✓  |       |        ✓       |      ✓      |             |
+| 4 |  ✓  |   ✓   |        ✓       |      ✓      |      ✓      |
+| 5 |  ✓  |   ✓   |        ✓       |      ✓      |             |
+| 6 |  ✓  |       |        ✓       |      ✓      |             |
 
 ## Features
 ### Words List Editor
