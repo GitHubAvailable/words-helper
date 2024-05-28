@@ -31,7 +31,7 @@ struct CardView<C: Collection<Word>>: LearningView {
             DefaultHeader(word.key, word.pronounce)
             
             HStack {
-                Text(word.detail)
+                Text(word.notes)
                     .font(.system(size: 25))
                     .padding(.bottom, 10)
                 Spacer()
