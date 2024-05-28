@@ -41,7 +41,7 @@ struct WordDetail: View {
                 Factory.getFrame("言") {
                     Factory.getStringField(
                         $word.key,
-                        prompt: String(localized: "欲志之項也")
+                        prompt: String(localized: "欲誌項")
                     )
                     .focused($focusedField, equals: .key)
                     .onChange(of: word.key) { [old = word.key] new in
@@ -54,7 +54,7 @@ struct WordDetail: View {
                 
                 Factory.getFrame("義") {
                     Factory.getStringField( $word.notes,
-                        prompt: String(localized: "簡注焉")
+                        prompt: String(localized: "簡注")
                     )
                     .focused($focusedField, equals: .notes)
                     .onChange(of: word.notes) { [old = word.key] new in
@@ -67,7 +67,7 @@ struct WordDetail: View {
                 
                 Factory.getFrame("音") {
                     Factory.getStringField( $word.pronounce,
-                        prompt: String(localized: "言之声也")
+                        prompt: String(localized: "聲")
                     )
                     .focused($focusedField, equals: .pronounce)
                     .onChange(of: word.pronounce) { [old = word.pronounce] new in
@@ -95,7 +95,7 @@ struct WordDetail: View {
                 Factory.getStringField(
                     type: .longText,
                     $word.detail,
-                    prompt: "詳解焉"
+                    prompt: "詳解"
                 )
                 .focused($focusedField, equals: .detail)
                 .onChange(of: word.detail) { [old = word.detail] new in

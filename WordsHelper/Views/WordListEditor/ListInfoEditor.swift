@@ -28,7 +28,7 @@ struct ListInfoEditor: View {
                 Factory.getFrame(String(localized: "文")) {
                     Factory.getStringField(
                         $lang,
-                        prompt: String(localized: "言之為用也")
+                        prompt: String(localized: "表之言也")
                     )
                     .focused($focusedField, equals: .language)
                 }
