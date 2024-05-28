@@ -17,6 +17,16 @@
 		E81B059E2B4D9896004F2986 /* LongTextValueField.swift in Sources */ = {isa = PBXBuildFile; fileRef = E81B059D2B4D9896004F2986 /* LongTextValueField.swift */; };
 		E81B05A02B4DA2D7004F2986 /* EditorFrame.swift in Sources */ = {isa = PBXBuildFile; fileRef = E81B059F2B4DA2D7004F2986 /* EditorFrame.swift */; };
 		E81B05A62B4DFB84004F2986 /* NSObjExtend.swift in Sources */ = {isa = PBXBuildFile; fileRef = E81B05A52B4DFB84004F2986 /* NSObjExtend.swift */; };
+		E827BBA32BF7B51300A05FE8 /* BackForthIterator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E827BBA22BF7B51300A05FE8 /* BackForthIterator.swift */; };
+		E827BBA52BF7DB7400A05FE8 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E827BBA42BF7DB7400A05FE8 /* CardView.swift */; };
+		E827BBA92BF8174200A05FE8 /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E827BBA82BF8174200A05FE8 /* ListView.swift */; };
+		E827BBAB2BF8177A00A05FE8 /* SelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E827BBAA2BF8177A00A05FE8 /* SelectionView.swift */; };
+		E827BBAE2BF8BA7E00A05FE8 /* DefaultHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = E827BBAD2BF8BA7E00A05FE8 /* DefaultHeader.swift */; };
+		E827BBB02BF8D1A000A05FE8 /* SimpleSelector.swift in Sources */ = {isa = PBXBuildFile; fileRef = E827BBAF2BF8D1A000A05FE8 /* SimpleSelector.swift */; };
+		E827BBB22BF8E3E400A05FE8 /* SingleSelection.swift in Sources */ = {isa = PBXBuildFile; fileRef = E827BBB12BF8E3E400A05FE8 /* SingleSelection.swift */; };
+		E827BBB62BFA648800A05FE8 /* ProficiencySelector.swift in Sources */ = {isa = PBXBuildFile; fileRef = E827BBB52BFA648800A05FE8 /* ProficiencySelector.swift */; };
+		E827BBB82BFB9FA200A05FE8 /* ReviewRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = E827BBB72BFB9FA100A05FE8 /* ReviewRow.swift */; };
+		E827BBBA2BFCE68E00A05FE8 /* BackForthIteratorError.swift in Sources */ = {isa = PBXBuildFile; fileRef = E827BBB92BFCE68E00A05FE8 /* BackForthIteratorError.swift */; };
 		E830CE7F2B37A86C006D9524 /* WordsHelperApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E830CE7E2B37A86C006D9524 /* WordsHelperApp.swift */; };
 		E830CE812B37A86C006D9524 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E830CE802B37A86C006D9524 /* ContentView.swift */; };
 		E830CE832B37A86F006D9524 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E830CE822B37A86F006D9524 /* Assets.xcassets */; };
@@ -39,6 +49,8 @@
 		E872680E2B5C34E70027846F /* WordsListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E872680D2B5C34E70027846F /* WordsListController.swift */; };
 		E87268132B5DD0F20027846F /* EditorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E87268122B5DD0F20027846F /* EditorView.swift */; };
 		E886D8EB2BB0C02D00B27A0C /* sample_data1.json in Resources */ = {isa = PBXBuildFile; fileRef = E886D8EA2BB0C02D00B27A0C /* sample_data1.json */; };
+		E88A14AB2BF6B0BA00EB3FF5 /* LearnerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E88A14AA2BF6B0BA00EB3FF5 /* LearnerView.swift */; };
+		E88A14B22BF6B80900EB3FF5 /* LearningView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E88A14B12BF6B80900EB3FF5 /* LearningView.swift */; };
 		E88CF0962B4A1B5700D3D7E3 /* SectionFrame.swift in Sources */ = {isa = PBXBuildFile; fileRef = E88CF0952B4A1B5700D3D7E3 /* SectionFrame.swift */; };
 		E89CF8192B63E7C500DCD08F /* ObservableWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = E89CF8182B63E7C500DCD08F /* ObservableWrapper.swift */; };
 		E8BB6B4E2B61AC0C002783B6 /* ViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8BB6B4D2B61AC0C002783B6 /* ViewExtensions.swift */; };
@@ -76,6 +88,16 @@
 		E81B059D2B4D9896004F2986 /* LongTextValueField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongTextValueField.swift; sourceTree = "<group>"; };
 		E81B059F2B4DA2D7004F2986 /* EditorFrame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditorFrame.swift; sourceTree = "<group>"; };
 		E81B05A52B4DFB84004F2986 /* NSObjExtend.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSObjExtend.swift; sourceTree = "<group>"; };
+		E827BBA22BF7B51300A05FE8 /* BackForthIterator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackForthIterator.swift; sourceTree = "<group>"; };
+		E827BBA42BF7DB7400A05FE8 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		E827BBA82BF8174200A05FE8 /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
+		E827BBAA2BF8177A00A05FE8 /* SelectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectionView.swift; sourceTree = "<group>"; };
+		E827BBAD2BF8BA7E00A05FE8 /* DefaultHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultHeader.swift; sourceTree = "<group>"; };
+		E827BBAF2BF8D1A000A05FE8 /* SimpleSelector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleSelector.swift; sourceTree = "<group>"; };
+		E827BBB12BF8E3E400A05FE8 /* SingleSelection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleSelection.swift; sourceTree = "<group>"; };
+		E827BBB52BFA648800A05FE8 /* ProficiencySelector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProficiencySelector.swift; sourceTree = "<group>"; };
+		E827BBB72BFB9FA100A05FE8 /* ReviewRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewRow.swift; sourceTree = "<group>"; };
+		E827BBB92BFCE68E00A05FE8 /* BackForthIteratorError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackForthIteratorError.swift; sourceTree = "<group>"; };
 		E830CE7B2B37A86C006D9524 /* WordsHelper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WordsHelper.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E830CE7E2B37A86C006D9524 /* WordsHelperApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordsHelperApp.swift; sourceTree = "<group>"; };
 		E830CE802B37A86C006D9524 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -100,6 +122,8 @@
 		E872680D2B5C34E70027846F /* WordsListController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordsListController.swift; sourceTree = "<group>"; };
 		E87268122B5DD0F20027846F /* EditorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditorView.swift; sourceTree = "<group>"; };
 		E886D8EA2BB0C02D00B27A0C /* sample_data1.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = sample_data1.json; sourceTree = "<group>"; };
+		E88A14AA2BF6B0BA00EB3FF5 /* LearnerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearnerView.swift; sourceTree = "<group>"; };
+		E88A14B12BF6B80900EB3FF5 /* LearningView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearningView.swift; sourceTree = "<group>"; };
 		E88CF0952B4A1B5700D3D7E3 /* SectionFrame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionFrame.swift; sourceTree = "<group>"; };
 		E89CF8182B63E7C500DCD08F /* ObservableWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservableWrapper.swift; sourceTree = "<group>"; };
 		E8BB6B4D2B61AC0C002783B6 /* ViewExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewExtensions.swift; sourceTree = "<group>"; };
@@ -143,6 +167,7 @@
 				E89CF8182B63E7C500DCD08F /* ObservableWrapper.swift */,
 				E84ADD422B5338C000F8D38A /* LockUtils.swift */,
 				E8BB6B4D2B61AC0C002783B6 /* ViewExtensions.swift */,
+				E827BBA22BF7B51300A05FE8 /* BackForthIterator.swift */,
 			);
 			path = Commons;
 			sourceTree = "<group>";
@@ -167,6 +192,18 @@
 				E81B05912B4C82B8004F2986 /* SelectionValueField.swift */,
 			);
 			path = ComponentImpl;
+			sourceTree = "<group>";
+		};
+		E827BBAC2BF8BA4500A05FE8 /* Component */ = {
+			isa = PBXGroup;
+			children = (
+				E827BBAD2BF8BA7E00A05FE8 /* DefaultHeader.swift */,
+				E827BBAF2BF8D1A000A05FE8 /* SimpleSelector.swift */,
+				E827BBB12BF8E3E400A05FE8 /* SingleSelection.swift */,
+				E827BBB52BFA648800A05FE8 /* ProficiencySelector.swift */,
+				E827BBB72BFB9FA100A05FE8 /* ReviewRow.swift */,
+			);
+			path = Component;
 			sourceTree = "<group>";
 		};
 		E830CE722B37A86C006D9524 = {
@@ -270,6 +307,59 @@
 			path = Controllers;
 			sourceTree = "<group>";
 		};
+		E88A14A92BF6AF7E00EB3FF5 /* WordListLearner */ = {
+			isa = PBXGroup;
+			children = (
+				E827BBAC2BF8BA4500A05FE8 /* Component */,
+				E88A14AA2BF6B0BA00EB3FF5 /* LearnerView.swift */,
+				E88A14AF2BF6B76700EB3FF5 /* LearningView */,
+				E88A14B02BF6B77800EB3FF5 /* LearningViewImpl */,
+			);
+			path = WordListLearner;
+			sourceTree = "<group>";
+		};
+		E88A14AC2BF6B3EF00EB3FF5 /* Card */ = {
+			isa = PBXGroup;
+			children = (
+				E827BBA42BF7DB7400A05FE8 /* CardView.swift */,
+			);
+			path = Card;
+			sourceTree = "<group>";
+		};
+		E88A14AD2BF6B3F700EB3FF5 /* Selection */ = {
+			isa = PBXGroup;
+			children = (
+				E827BBAA2BF8177A00A05FE8 /* SelectionView.swift */,
+			);
+			path = Selection;
+			sourceTree = "<group>";
+		};
+		E88A14AE2BF6B42200EB3FF5 /* List */ = {
+			isa = PBXGroup;
+			children = (
+				E827BBA82BF8174200A05FE8 /* ListView.swift */,
+			);
+			path = List;
+			sourceTree = "<group>";
+		};
+		E88A14AF2BF6B76700EB3FF5 /* LearningView */ = {
+			isa = PBXGroup;
+			children = (
+				E88A14B12BF6B80900EB3FF5 /* LearningView.swift */,
+			);
+			path = LearningView;
+			sourceTree = "<group>";
+		};
+		E88A14B02BF6B77800EB3FF5 /* LearningViewImpl */ = {
+			isa = PBXGroup;
+			children = (
+				E88A14AC2BF6B3EF00EB3FF5 /* Card */,
+				E88A14AE2BF6B42200EB3FF5 /* List */,
+				E88A14AD2BF6B3F700EB3FF5 /* Selection */,
+			);
+			path = LearningViewImpl;
+			sourceTree = "<group>";
+		};
 		E8BCA3182B4748E50082DF34 /* Model */ = {
 			isa = PBXGroup;
 			children = (
@@ -284,6 +374,7 @@
 			children = (
 				E830CE802B37A86C006D9524 /* ContentView.swift */,
 				E8BCA3242B48BB5C0082DF34 /* WordListEditor */,
+				E88A14A92BF6AF7E00EB3FF5 /* WordListLearner */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -294,6 +385,7 @@
 				E814CF552B4C375E00610136 /* ProgramError.swift */,
 				E8BCA3222B48609D0082DF34 /* DocumentError.swift */,
 				E814CF532B4C30AD00610136 /* DataError.swift */,
+				E827BBB92BFCE68E00A05FE8 /* BackForthIteratorError.swift */,
 			);
 			path = Errors;
 			sourceTree = "<group>";
@@ -436,19 +528,25 @@
 				E8BCA3282B48BBC60082DF34 /* WordRowView.swift in Sources */,
 				E814CF562B4C375E00610136 /* ProgramError.swift in Sources */,
 				E8BCA3232B48609D0082DF34 /* DocumentError.swift in Sources */,
+				E827BBA52BF7DB7400A05FE8 /* CardView.swift in Sources */,
 				E81B05982B4D6242004F2986 /* IterPickable.swift in Sources */,
 				E81B05A62B4DFB84004F2986 /* NSObjExtend.swift in Sources */,
 				E8BCA31C2B475DBF0082DF34 /* WordsList.swift in Sources */,
+				E827BBB02BF8D1A000A05FE8 /* SimpleSelector.swift in Sources */,
 				E81B05922B4C82B8004F2986 /* SelectionValueField.swift in Sources */,
 				E81B059A2B4D6291004F2986 /* Proficiency.swift in Sources */,
+				E88A14AB2BF6B0BA00EB3FF5 /* LearnerView.swift in Sources */,
 				E84ADD3F2B52F6F000F8D38A /* MonitoredCollection.swift in Sources */,
+				E827BBA32BF7B51300A05FE8 /* BackForthIterator.swift in Sources */,
 				E84ADD5C2B56C99F00F8D38A /* WordsListView.swift in Sources */,
 				E87268132B5DD0F20027846F /* EditorView.swift in Sources */,
+				E88A14B22BF6B80900EB3FF5 /* LearningView.swift in Sources */,
 				E814CF542B4C30AD00610136 /* DataError.swift in Sources */,
 				E81B059E2B4D9896004F2986 /* LongTextValueField.swift in Sources */,
 				E814CF5A2B4C521800610136 /* ValueField.swift in Sources */,
 				E81B05942B4C896B004F2986 /* DefaultFrame.swift in Sources */,
 				E84ADD3B2B5061B600F8D38A /* MonitoredArray.swift in Sources */,
+				E827BBAE2BF8BA7E00A05FE8 /* DefaultHeader.swift in Sources */,
 				E872680A2B5C333A0027846F /* FileController.swift in Sources */,
 				E89CF8192B63E7C500DCD08F /* ObservableWrapper.swift in Sources */,
 				E872680C2B5C33AD0027846F /* CollectionFileController.swift in Sources */,
@@ -457,12 +555,18 @@
 				E84ADD372B500E1700F8D38A /* FrameType.swift in Sources */,
 				E88CF0962B4A1B5700D3D7E3 /* SectionFrame.swift in Sources */,
 				E84ADD432B5338C000F8D38A /* LockUtils.swift in Sources */,
+				E827BBAB2BF8177A00A05FE8 /* SelectionView.swift in Sources */,
+				E827BBA92BF8174200A05FE8 /* ListView.swift in Sources */,
 				E8BCA3312B49C9C40082DF34 /* FieldType.swift in Sources */,
 				E81B05A02B4DA2D7004F2986 /* EditorFrame.swift in Sources */,
 				E872680E2B5C34E70027846F /* WordsListController.swift in Sources */,
+				E827BBB62BFA648800A05FE8 /* ProficiencySelector.swift in Sources */,
 				E84ADD412B52FD8200F8D38A /* MonitoredRandomAccessCollection.swift in Sources */,
+				E827BBB22BF8E3E400A05FE8 /* SingleSelection.swift in Sources */,
 				E830CE7F2B37A86C006D9524 /* WordsHelperApp.swift in Sources */,
+				E827BBBA2BFCE68E00A05FE8 /* BackForthIteratorError.swift in Sources */,
 				E8BCA31A2B4749210082DF34 /* Word.swift in Sources */,
+				E827BBB82BFB9FA200A05FE8 /* ReviewRow.swift in Sources */,
 				E8BCA32C2B49BC8B0082DF34 /* TextValueField.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -615,6 +719,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"WordsHelper/Preview Content\"";
+				DEVELOPMENT_TEAM = 5QP37Z3KKY;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = WordsHelper/Info.plist;
@@ -646,6 +751,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"WordsHelper/Preview Content\"";
+				DEVELOPMENT_TEAM = 5QP37Z3KKY;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = WordsHelper/Info.plist;
