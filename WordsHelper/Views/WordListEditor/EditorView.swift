@@ -38,6 +38,7 @@ struct EditorView: View {
                 }
             }
         }
+        .navigationViewStyle(StackNavigationViewStyle())
     }
     
     /// The button that enters the words list info page.

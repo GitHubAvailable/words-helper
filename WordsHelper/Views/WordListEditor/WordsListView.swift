@@ -133,7 +133,7 @@ struct WordsListView: View {
         // Create texts.
         let shown = String(localized: "\(totalLen)詞示\(shownLen)")
         let hidden = shownLen == totalLen ? "" : String(localized: "隱\(totalLen - shownLen)")
-        let selected = selections.count == 0 ? "" : String(localized: "為擇者\(selectLen)")
+        let selected = selections.count == 0 ? "" : String(localized: "擇\(selectLen)")
         
         return "\(shown)\(hidden)\(selected)"
     }
@@ -196,7 +196,7 @@ struct WordsListView: View {
             Divider()
             
             Toggle(
-                String(localized: "惟生是陳"),
+                String(localized: "僅生"),
                 isOn: $showUnfamiliarOnly
             )
         } label: {
@@ -206,8 +206,11 @@ struct WordsListView: View {
     
     /// The button used to enter the learning system.
     var studyButton: some View {
-        Button {
-            // TODO: Connect to study system
+        NavigationLink {
+            if !(words.isEmpty) {
+                LearnerView(words: words.data)
+                    .environmentObject(undoManager)
+            }
         } label: {
             Image(systemName: "arrowtriangle.right")
         }
@@ -226,6 +229,8 @@ struct WordsListView: View {
                 .environmentObject(wordsList.words)
                 .environmentObject(UndoManager())
         }
+        .navigationViewStyle(StackNavigationViewStyle())
+        // displays bottom toolbar in learning system
     } catch {
         return EmptyView()
     }
