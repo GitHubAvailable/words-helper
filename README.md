@@ -7,6 +7,8 @@
     - [Words List](#words-list)
     - [Learning System](#learning-system)
   - [Features](#features)
+    - [Words List Editor](#words-list-editor)
+    - [Learning System](#learning-system)
   - [What's Next](#whats-next)
   - [Installation](#installation)
   - [Contribution](#contribution)
@@ -38,7 +40,7 @@ The learning system is divided to 6 stages:
 3. Multiple-Choice about unfamiliar words.
 4. Learn/review all words one by one in detail.
 5. Review all words in as list.
-6. Multiple-Choice about unfamiliar words.
+6. Multiple-Choice about all words.
 
 The following table shows the information of a word displayed in 
 each stage
@@ -58,26 +60,24 @@ each stage
 + Reorder words
 + Mark duplicated keys
 
-## What's Next
-- Learning System
-- Localization
-- + English
+### Learning System
++ In-time saving of proficiency
++ Multiple-Choice of meaning to strengthen memorization
+
+**Localizations:** Chinese (Traditional), English
 
 ## Installation
-The current version is built on iOS 15 or above.
+**OS Requirement:** iOS 15 or above.
 
 ### Setup
 1. Download the repository.
 2. Open the project in Xcode.
 
-**Note:** This is my first project, and unexpected problems 
-can happen. Feel free to open issues to report them.
-
 ## Contribution
 Any suggestions and contributions are welcome! You can 
 1. Report Bugs
 2. Give suggestion
-3. Contribute code
+3. Make a pull request to contribute your own code
 
 
 [1]: https://dictionary.cambridge.org/dictionary/english/code
