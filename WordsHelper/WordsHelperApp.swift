@@ -13,7 +13,7 @@ struct WordsHelperApp: App {
         DocumentGroup(newDocument: { WordsList() }) { file in
             ContentView()
                 .environmentObject(file.document)
-                // .tint(.green)
+                .tint(.green)
                 // .preferredColorScheme(.dark)
         }
     }
